@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0e0e0e;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  color: #00d1b2;
+  text-align: center;
+}
+
+.materia {
+  border: 1px solid #00d1b2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #1c1c1c;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.materia.habilitada {
+  opacity: 1;
+  border-color: #00ffcc;
+  background-color: #232323;
+}
+
+.semestre {
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
